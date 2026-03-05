@@ -1,0 +1,39 @@
+# Add your artworks here. Each entry appears in the gallery.
+# - Add images to assets/images/ and reference them as /assets/images/yourfile.jpg
+# - Order: items are shown in the order listed below.
+
+- title: "Untitled 1"
+  image: "https://placehold.co/800x1000/1a1a1a/666?text=Art+1"
+  year: "2024"
+  medium: "—"
+  description: ""
+
+- title: "Untitled 2"
+  image: "https://placehold.co/800x800/252525/666?text=Art+2"
+  year: "2024"
+  medium: "—"
+  description: ""
+
+- title: "Untitled 3"
+  image: "https://placehold.co/800x600/1a1a1a/666?text=Art+3"
+  year: "2024"
+  medium: "—"
+  description: ""
+
+- title: "Untitled 4"
+  image: "https://placehold.co/600x800/252525/666?text=Art+4"
+  year: "2024"
+  medium: "—"
+  description: ""
+
+- title: "Untitled 5"
+  image: "https://placehold.co/800x900/1a1a1a/666?text=Art+5"
+  year: "2024"
+  medium: "—"
+  description: ""
+
+- title: "Untitled 6"
+  image: "https://placehold.co/800x800/252525/666?text=Art+6"
+  year: "2024"
+  medium: "—"
+  description: ""

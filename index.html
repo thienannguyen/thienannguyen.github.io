@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<section id="work" class="section gallery-section">
+  <h2 class="section-title">Work</h2>
+  <div class="gallery">
+    {% for item in site.data.portfolio %}
+    <article class="gallery-item">
+      <a href="{{ item.link | default: '#' }}" class="gallery-link" aria-label="View {{ item.title }}">
+        <img src="{% if item.image contains 'http' %}{{ item.image }}{% else %}{{ item.image | relative_url }}{% endif %}" alt="{{ item.title }}" loading="lazy">
+        <span class="gallery-item-title">{{ item.title }}{% if item.year %} ({{ item.year }}){% endif %}</span>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="about" class="section about-section">
+  <h2 class="section-title">About</h2>
+  <div class="about-content">
+    <p class="about-text">{{ site.data.site.about_intro }}</p>
+    <p class="about-text">{{ site.data.site.about_rest }}</p>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <h2 class="section-title">Contact</h2>
+  <div class="contact-content">
+    <p>Get in touch</p>
+    <ul class="contact-links">
+      {% for link in site.data.site.contact %}
+      <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

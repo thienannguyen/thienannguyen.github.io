@@ -1,0 +1,21 @@
+# Site settings
+# Docs: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
+
+title: "Thien An Nguyen"
+description: "Art Portfolio"
+author: "Thien An Nguyen"
+
+# GitHub Pages: user site (repo thienannguyen.github.io) → root URL
+baseurl: ""
+url: "https://thienannguyen.github.io"
+
+# Build
+markdown: kramdown
+permalink: pretty
+
+# Optional: exclude from Jekyll processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules

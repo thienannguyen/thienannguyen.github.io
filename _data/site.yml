@@ -1,0 +1,21 @@
+# Site-wide links and text. Edit here to update header/footer and contact.
+
+nav:
+  - label: "Work"
+    url: "#work"
+  - label: "About"
+    url: "#about"
+  - label: "Contact"
+    url: "#contact"
+
+contact:
+  - label: "GitHub"
+    url: "https://github.com/thienannguyen"
+  - label: "Email"
+    url: "mailto:your@email.com"
+  # Add more: Instagram, Behance, etc.
+  # - label: "Instagram"
+  #   url: "https://instagram.com/yourhandle"
+
+about_intro: "Artist based in [Your location]. This portfolio showcases a selection of works across [media / themes you work with]."
+about_rest: "Replace this with your own bio, artist statement, or a short note about your practice."
