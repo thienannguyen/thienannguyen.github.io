@@ -1,9 +1,9 @@
 # Site settings
 # Docs: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
 
-title: "Thien An Nguyen"
+title: "An Nguyen"
 description: "Art Portfolio"
-author: "Thien An Nguyen"
+author: "An Nguyen"
 
 # GitHub Pages: user site (repo thienannguyen.github.io) → root URL
 baseurl: ""
