@@ -2,13 +2,13 @@
 # - Add images to assets/images/ and reference them as /assets/images/yourfile.jpg
 # - Order: items are shown in the order listed below.
 
-- title: "Untitled 1"
+- title: "Becoming Her"
   image: "https://placehold.co/800x1000/1a1a1a/666?text=Art+1"
   year: "2024"
   medium: "—"
   description: ""
 
-- title: "Untitled 2"
+- title: "My Sister - Tam"
   image: "https://placehold.co/800x800/252525/666?text=Art+2"
   year: "2024"
   medium: "—"
