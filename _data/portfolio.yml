@@ -1,39 +1,39 @@
 # Add your artworks here. Each entry appears in the gallery.
-# - Add images to assets/images/ and reference them as /assets/images/yourfile.jpg
-# - Order: items are shown in the order listed below.
+# Put image files in assets/images/ and set image to "/assets/images/yourfile.jpg"
+# Use .jpg, .png, or .webp. Order below = order in the gallery.
 
 - title: "Becoming Her"
-  image: "https://placehold.co/800x1000/1a1a1a/666?text=Art+1"
+  image: "/assets/images/becoming-her.jpg"
   year: "2024"
   medium: "—"
   description: ""
 
 - title: "My Sister - Tam"
-  image: "https://placehold.co/800x800/252525/666?text=Art+2"
+  image: "/assets/images/my-sister-tam.jpg"
   year: "2024"
   medium: "—"
   description: ""
 
 - title: "Untitled 3"
-  image: "https://placehold.co/800x600/1a1a1a/666?text=Art+3"
+  image: "/assets/images/untitled-3.jpg"
   year: "2024"
   medium: "—"
   description: ""
 
 - title: "Untitled 4"
-  image: "https://placehold.co/600x800/252525/666?text=Art+4"
+  image: "/assets/images/untitled-4.jpg"
   year: "2024"
   medium: "—"
   description: ""
 
 - title: "Untitled 5"
-  image: "https://placehold.co/800x900/1a1a1a/666?text=Art+5"
+  image: "/assets/images/untitled-5.jpg"
   year: "2024"
   medium: "—"
   description: ""
 
 - title: "Untitled 6"
-  image: "https://placehold.co/800x800/252525/666?text=Art+6"
+  image: "/assets/images/untitled-6.jpg"
   year: "2024"
   medium: "—"
   description: ""
