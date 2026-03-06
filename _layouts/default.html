@@ -28,5 +28,15 @@
   <footer class="site-footer">
     <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
   </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged view" hidden>
+    <div class="lightbox__backdrop"></div>
+    <div class="lightbox__content">
+      <img class="lightbox__img" src="" alt="">
+      <button type="button" class="lightbox__close" aria-label="Close">&times;</button>
+    </div>
+  </div>
+
+  <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
 </body>
 </html>
