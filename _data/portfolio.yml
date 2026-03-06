@@ -3,21 +3,21 @@
 # Use .jpg, .png, or .webp. Order below = order in the gallery.
 
 - title: "Becoming Her"
-  image: "/assets/images/becoming-her.jpg"
-  year: "2024"
-  medium: "—"
+  image: "/assets/images/dancing.jpg"
+  year: "2023"
+  medium: "watercolor"
   description: ""
 
 - title: "My Sister - Tam"
   image: "/assets/images/my-sister-tam.jpg"
-  year: "2024"
-  medium: "—"
+  year: "2025"
+  medium: "watercolor"
   description: ""
 
 - title: "Snow Dawn"
   image: "/assets/images/bird.JPG"
-  year: "2024"
-  medium: "—"
+  year: "2026"
+  medium: "photography"
   description: ""
 
 - title: "Untitled 4"
