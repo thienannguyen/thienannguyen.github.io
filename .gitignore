@@ -3,3 +3,9 @@ _site/
 .jekyll-cache/
 Gemfile.lock
 *.log
+**/.DS_Store
+
+# OAuth / service account credentials — never commit these
+client_secret.json
+credentials.json
+creds

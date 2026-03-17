@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% assign category = site.data.categories | where: "slug", page.category_slug | first %}
+
+<section class="section category-section">
+  <div class="category-header">
+    <a href="{{ '/' | relative_url }}#work" class="back-link">&larr; All Categories</a>
+    <h2 class="section-title">{{ page.title }}</h2>
+    {% if category %}
+    <p class="category-meta">{{ category.images | size }} work{% if category.images.size != 1 %}s{% endif %}</p>
+    {% endif %}
+  </div>
+
+  {% if category %}
+  <div class="gallery">
+    {% for image in category.images %}
+    <article class="gallery-item">
+      <a href="#" class="gallery-link" aria-label="View {{ image.title }}">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.title }}" loading="lazy">
+        <span class="gallery-item-title">{{ image.title }}</span>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty-message">No images in this category yet.</p>
+  {% endif %}
+</section>

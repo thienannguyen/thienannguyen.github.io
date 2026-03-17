@@ -2,11 +2,11 @@
 
 nav:
   - label: "Work"
-    url: "#work"
+    url: "/#work"
   - label: "About"
-    url: "#about"
+    url: "/#about"
   - label: "Contact"
-    url: "#contact"
+    url: "/#contact"
 
 contact:
   - label: "GitHub"

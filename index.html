@@ -4,12 +4,17 @@ layout: default
 
 <section id="work" class="section gallery-section">
   <h2 class="section-title">Work</h2>
-  <div class="gallery">
-    {% for item in site.data.portfolio %}
-    <article class="gallery-item">
-      <a href="{{ item.link | default: '#' }}" class="gallery-link" aria-label="View {{ item.title }}">
-        <img src="{% if item.image contains 'http' %}{{ item.image }}{% else %}{{ item.image | relative_url }}{% endif %}" alt="{{ item.title }}" loading="lazy">
-        <span class="gallery-item-title">{{ item.title }}{% if item.year %} ({{ item.year }}){% endif %}</span>
+  <div class="category-grid">
+    {% for cat in site.data.categories %}
+    <article class="category-card">
+      <a href="{{ '/categories/' | append: cat.slug | append: '/' | relative_url }}" class="category-link">
+        <div class="category-thumbnail">
+          <img src="{{ cat.thumbnail | relative_url }}" alt="{{ cat.name }}" loading="lazy">
+        </div>
+        <div class="category-info">
+          <h3 class="category-name">{{ cat.name }}</h3>
+          <span class="category-count">{{ cat.images | size }} work{% if cat.images.size != 1 %}s{% endif %}</span>
+        </div>
       </a>
     </article>
     {% endfor %}

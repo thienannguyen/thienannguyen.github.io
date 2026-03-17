@@ -19,3 +19,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
+  - scripts
+  - credentials.json
+  - client_secret.json
