@@ -1,6 +1,6 @@
 - name: "Mix Media"
   slug: "mix-media"
-  thumbnail: "/assets/images/categories/mix-media/racoon.jpg"
+  thumbnail: "/assets/images/categories/mix-media/cool-backpack.jpg"
   images:
     - filename: "becoming-her.jpg"
       title: "Becoming Her"
@@ -11,9 +11,16 @@
     - filename: "racoon.jpg"
       title: "Racoon"
       path: "/assets/images/categories/mix-media/racoon.jpg"
+- name: "Photography"
+  slug: "photography"
+  thumbnail: "/assets/images/categories/photography/bird.JPG"
+  images:
+    - filename: "bird.JPG"
+      title: "Bird"
+      path: "/assets/images/categories/photography/bird.JPG"
 - name: "Watercolor"
   slug: "watercolor"
-  thumbnail: "/assets/images/categories/watercolor/my-sister-tam.jpg"
+  thumbnail: "/assets/images/categories/watercolor/phoenix-head.jpg"
   images:
     - filename: "dancing.jpg"
       title: "Dancing"
@@ -27,3 +34,6 @@
     - filename: "my-sister-tam.jpg"
       title: "My Sister Tam"
       path: "/assets/images/categories/watercolor/my-sister-tam.jpg"
+    - filename: "phoenix-head.jpg"
+      title: "Phoenix Head"
+      path: "/assets/images/categories/watercolor/phoenix-head.jpg"
