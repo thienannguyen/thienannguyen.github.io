@@ -1,6 +1,6 @@
 - name: "Acrylic"
   slug: "acrylic"
-  thumbnail: "/assets/images/categories/acrylic/phoenix-head.jpg"
+  thumbnail: "/assets/images/categories/acrylic/my-sister-tam.jpg"
   images:
     - filename: "dancing.jpg"
       title: "Dancing"
@@ -29,8 +29,11 @@
       path: "/assets/images/categories/mix-media/racoon.jpg"
 - name: "Sculpture"
   slug: "sculpture"
-  thumbnail: "/assets/images/categories/sculpture/keychain.jpg"
+  thumbnail: "/assets/images/categories/sculpture/clay-fox.jpg"
   images:
+    - filename: "clay-fox.jpg"
+      title: "Clay Fox"
+      path: "/assets/images/categories/sculpture/clay-fox.jpg"
     - filename: "cool-backpack.jpg"
       title: "Cool Backpack"
       path: "/assets/images/categories/sculpture/cool-backpack.jpg"
