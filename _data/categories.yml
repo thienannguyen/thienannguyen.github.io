@@ -2,9 +2,6 @@
   slug: "acrylic"
   thumbnail: "/assets/images/categories/acrylic/my-sister-tam.jpg"
   images:
-    - filename: "girl-dress.jpg"
-      title: "Girl Dress"
-      path: "/assets/images/categories/acrylic/girl-dress.jpg"
     - filename: "my-sister-tam.jpg"
       title: "My Sister Tam"
       path: "/assets/images/categories/acrylic/my-sister-tam.jpg"
@@ -20,7 +17,7 @@
       path: "/assets/images/categories/mix-media/racoon.jpg"
 - name: "Sculpture"
   slug: "sculpture"
-  thumbnail: "/assets/images/categories/sculpture/clay-fox.jpg"
+  thumbnail: "/assets/images/categories/sculpture/cool-backpack.jpg"
   images:
     - filename: "clay-fox.jpg"
       title: "Clay Fox"
