@@ -7,7 +7,7 @@
       path: "/assets/images/categories/acrylic/my-sister-tam.jpg"
 - name: "Mix Media"
   slug: "mix-media"
-  thumbnail: "/assets/images/categories/mix-media/becoming-her.jpg"
+  thumbnail: "/assets/images/categories/mix-media/racoon.jpg"
   images:
     - filename: "becoming-her.jpg"
       title: "Becoming Her"
@@ -17,7 +17,7 @@
       path: "/assets/images/categories/mix-media/racoon.jpg"
 - name: "Sculpture"
   slug: "sculpture"
-  thumbnail: "/assets/images/categories/sculpture/cool-backpack.jpg"
+  thumbnail: "/assets/images/categories/sculpture/clay-fox.jpg"
   images:
     - filename: "clay-fox.jpg"
       title: "Clay Fox"
