@@ -1,6 +1,6 @@
 - name: "Acrylic"
   slug: "acrylic"
-  thumbnail: "/assets/images/categories/acrylic/Blue.PNG"
+  thumbnail: "/assets/images/categories/acrylic/Peace.PNG"
   images:
     - filename: "Blue.PNG"
       title: "Blue"
@@ -13,7 +13,7 @@
       path: "/assets/images/categories/acrylic/Peace.PNG"
 - name: "Mix Media"
   slug: "mix-media"
-  thumbnail: "/assets/images/categories/mix-media/racoon.jpg"
+  thumbnail: "/assets/images/categories/mix-media/Into the Sea.PNG"
   images:
     - filename: "Into the Sea.PNG"
       title: "Into The Sea"
@@ -46,7 +46,7 @@
       path: "/assets/images/categories/prints/Mermaid Linoleum Print.PNG"
 - name: "Sculpture"
   slug: "sculpture"
-  thumbnail: "/assets/images/categories/sculpture/keychain.jpg"
+  thumbnail: "/assets/images/categories/sculpture/clay-fox.jpg"
   images:
     - filename: "clay-fox.jpg"
       title: "Clay Fox"
