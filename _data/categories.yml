@@ -1,6 +1,6 @@
 - name: "Acrylic"
   slug: "acrylic"
-  thumbnail: "/assets/images/categories/acrylic/Peace.PNG"
+  thumbnail: "/assets/images/categories/acrylic/Blue.PNG"
   images:
     - filename: "Blue.PNG"
       title: "Blue"
